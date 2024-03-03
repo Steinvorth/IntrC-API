@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace IntroCAPI
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class HelloController : ControllerBase
     {
